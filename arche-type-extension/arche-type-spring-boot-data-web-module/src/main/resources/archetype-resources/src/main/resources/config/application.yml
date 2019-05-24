@@ -1,13 +1,13 @@
 server:
-  port: @passport-server-port@
+  port: @data-server-port@
 spring:
   application:
-    name: passport-module
+    name: data-module
   profiles:
     active: @package.environment@
   devtools:
     livereload:
-      port: @passport-devtools-livereload-port@
+      port: @data-devtools-livereload-port@
 
 mybatis:
   config-location: classpath:/mybatis/mybatis-config.xml

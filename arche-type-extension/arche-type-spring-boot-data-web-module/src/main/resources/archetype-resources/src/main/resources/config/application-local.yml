@@ -14,12 +14,12 @@ spring:
 
 dubbo:
   scan:
-    base-packages: com.sureland.passport
+    base-packages: ${package}.data
   application:
-    qos-port: @passport-dubbo-qos-port@
+    qos-port: @data-dubbo-qos-port@
   protocol:
     name: dubbo
-    port: @passport-dubbo-protocol-port@
+    port: @data-dubbo-protocol-port@
   registry:
     address: zookeeper://1.zookeeper:2181?backup=2.zookeeper:2181,3.zookeeper:2181
 

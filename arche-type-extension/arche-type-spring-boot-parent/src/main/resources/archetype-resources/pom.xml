@@ -101,11 +101,17 @@
                 <activeByDefault>true</activeByDefault>
             </activation>
             <properties>
-                <!--example-->
+                <!--api-->
                 <api-server-port>8080</api-server-port>
                 <api-dubbo-protocol-port>10000</api-dubbo-protocol-port>
                 <api-dubbo-qos-port>10100</api-dubbo-qos-port>
                 <api-devtools-livereload-port>11000</api-devtools-livereload-port>
+
+                <!--api-->
+                <data-server-port>8081</data-server-port>
+                <data-dubbo-protocol-port>10001</data-dubbo-protocol-port>
+                <data-dubbo-qos-port>10101</data-dubbo-qos-port>
+                <data-devtools-livereload-port>11001</data-devtools-livereload-port>
             </properties>
         </profile>
     </profiles>
