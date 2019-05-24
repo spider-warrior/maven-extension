@@ -15,6 +15,7 @@
     <modules>
         <module>arche-type-spring-boot-parent</module>
         <module>arche-type-spring-boot-web-module</module>
+        <module>arche-type-spring-boot-data-web-module</module>
     </modules>
 
     <build>

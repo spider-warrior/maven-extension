@@ -1,0 +1,14 @@
+server:
+  port: @passport-server-port@
+spring:
+  application:
+    name: passport-module
+  profiles:
+    active: @package.environment@
+  devtools:
+    livereload:
+      port: @passport-devtools-livereload-port@
+
+mybatis:
+  config-location: classpath:/mybatis/mybatis-config.xml
+  mapper-locations: classpath:/mybatis/mapping/*.xml
