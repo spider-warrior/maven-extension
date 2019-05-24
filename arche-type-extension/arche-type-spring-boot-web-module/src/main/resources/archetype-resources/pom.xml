@@ -3,14 +3,8 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
-    <parent>
-        <artifactId>sureland-api-server</artifactId>
-        <groupId>com.sureland</groupId>
-        <version>1.0.0-SNAPSHOT</version>
-    </parent>
+    <artifactId>${artifactId}</artifactId>
     <modelVersion>4.0.0</modelVersion>
-
-    <artifactId>sureland-api-web</artifactId>
     <packaging>jar</packaging>
 
     <dependencies>
@@ -49,7 +43,6 @@
                 <version>${spring-boot.version}</version>
             </plugin>
         </plugins>
-        <finalName>sureland-api-server</finalName>
         <resources>
             <resource>
                 <directory>src/main/resources</directory>
