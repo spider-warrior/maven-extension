@@ -1,0 +1,14 @@
+server:
+  port: @api-server-port@
+spring:
+  application:
+    name: api-sever
+  profiles:
+    active: @package.environment@
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 200MB
+  devtools:
+    livereload:
+      port: @api-devtools-livereload-port@

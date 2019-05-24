@@ -14,6 +14,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>arche-type-spring-boot-parent</module>
+        <module>arche-type-spring-boot-web-module</module>
     </modules>
 
     <build>
